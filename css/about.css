@@ -65,3 +65,61 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* styling my about page here */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Rubik';
+    font-size: .9rem;
+}
+#jumbo-image {
+    margin: 2% 0;
+}
+#nav-bar-top {
+    display: flex;
+    padding: 3% 0;
+}
+#nav-bar-top nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3%;
+}
+#nav-bar-top nav a {
+    text-decoration: none;
+    color: black;
+}
+#about-section {
+    padding: 2%;
+}
+
+#details-section1 {
+display: flex;
+justify-content: space-around;
+border-top: 1px dashed black;
+}
+#details-section2 {
+    display: flex;
+    justify-content: space-around;
+    }
+#details-section1 div, #details-section2 div {
+    width: 47%;
+    border-bottom: 1px dashed black;
+}
+#details-section1 img, #details-section2 img {
+    width: 100%;
+}
+#details-section2 {
+display: flex;
+justify-content: space-around;
+}
+
+
+
