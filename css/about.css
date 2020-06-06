@@ -78,7 +78,7 @@ header {
     font-family: 'Rubik';
     font-size: .9rem;
 }
-#jumbo-image {
+#jumbo-about-image {
     margin: 2% 0;
 }
 #nav-bar-top {
@@ -101,17 +101,20 @@ header {
 }
 
 #details-section1 {
-display: flex;
-justify-content: space-around;
-border-top: 1px dashed black;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px dashed black;
 }
 #details-section2 {
     display: flex;
     justify-content: space-around;
-    }
+}
 #details-section1 div, #details-section2 div {
+    display: flex;
+    flex-direction: column;
     width: 47%;
     border-bottom: 1px dashed black;
+    padding: 2% 0;
 }
 #details-section1 img, #details-section2 img {
     width: 100%;
@@ -119,6 +122,44 @@ border-top: 1px dashed black;
 #details-section2 {
 display: flex;
 justify-content: space-around;
+}
+
+#details-section1 a, #details-section2 a {
+    text-align: center;
+    width: 34%;
+    text-decoration: none;
+    padding: 2% 3%;
+    border: 2px solid black;
+    border-radius: 10px;
+    color:black;
+}
+#details-section1 h3, #details-section2 h3 {
+    padding-top: 3%;
+}
+#details-section1 p, #details-section2 p {
+    padding-bottom: 4%;
+}
+
+#closing-section {
+    padding: 5% 2%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
 
 
