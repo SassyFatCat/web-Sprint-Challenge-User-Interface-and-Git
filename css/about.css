@@ -75,7 +75,7 @@ p {
 header {
     width: 800px;
     margin: 0 auto;
-    font-family: 'Rubik';
+    font-family: 'Roboto';
     font-size: .9rem;
 }
 #jumbo-about-image {
@@ -97,13 +97,14 @@ header {
     color: black;
 }
 #about-section {
-    padding: 2%;
+    padding: 1% 2% 2% 2%;
 }
 
 #details-section1 {
     display: flex;
     justify-content: space-around;
     border-top: 1px dashed black;
+    padding-top: 2%;
 }
 #details-section2 {
     display: flex;
@@ -116,12 +117,12 @@ header {
     border-bottom: 1px dashed black;
     padding: 2% 0;
 }
+#details-section2 div {
+    padding-bottom: 3%;
+    margin-top: 5.5%;
+}
 #details-section1 img, #details-section2 img {
     width: 100%;
-}
-#details-section2 {
-display: flex;
-justify-content: space-around;
 }
 
 #details-section1 a, #details-section2 a {
@@ -142,6 +143,7 @@ justify-content: space-around;
 
 #closing-section {
     padding: 5% 2%;
+    margin-top: 1%;
 }
 
 footer {
